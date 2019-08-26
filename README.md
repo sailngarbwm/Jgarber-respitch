@@ -4,14 +4,8 @@
 
 ### If you are helping at a Whython Presentation
 
-You will need to download the "Respitch_Notebook_V6-Helper_Version.ipynb", The "imbedded pics" folder (I know i spelled it wrong ;p) and the "Python_kitchen_tools.py" file.
+You will need to download the "Respitch_Notebook_V8-Helper_Version.ipynb", The "imbedded pics" folder (I know i spelled it wrong ;p) and the "Python_kitchen_tools_V3.py" file. and the dictionary file
 
-**Libraries required:** Numpy and urrlib3
+**Libraries required:** Numpy 
 
-
-## If you are helping at the Beautiful Soup Respitch
-
-You will need to download the "beautiful soup notebook Res_Pitch.ipynb" and the "beautiful soup notebook Res_Pitch-Challenge.ipynb" 
-
-**Libraries required:** Beautiful Soup 4 and requests
 
