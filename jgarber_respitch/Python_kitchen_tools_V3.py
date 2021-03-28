@@ -12,14 +12,14 @@ import numpy as np
 # import enchant
 import pickle
 from pathlib import Path
-
-
+import requests
+from io import BytesIO
 def get_project_absolute_root_path():
     """Returns project root folder."""
     return Path(__file__).parent.parent
 # import word list
-with open(get_project_absolute_root_path()/'data'/'dictionary','rb') as file:
-    word_lookup = set(pickle.load(file))
+with requests.get('https://github.com/sailngarbwm/Jgarber-respitch/blob/main/data/dictionary?raw=true') as file:
+    word_lookup = set(pickle.load(BytesIO(file.content)))
 
 import string
 alphabet = string.ascii_letters
