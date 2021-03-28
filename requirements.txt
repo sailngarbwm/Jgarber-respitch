@@ -1,1 +1,6 @@
-numpy==1.*
+numpy==1.19>*
+matplotlib==3.*
+pandas = 1.2.*
+jupyter==1.*
+ipywidgets==7.6.*
+
