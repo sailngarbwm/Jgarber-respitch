@@ -11,9 +11,14 @@ import itertools
 import numpy as np
 # import enchant
 import pickle
+from pathlib import Path
 
+
+def get_project_absolute_root_path():
+    """Returns project root folder."""
+    return Path(__file__).parent.parent
 # import word list
-with open('dictionary','rb') as file:
+with open(get_project_absolute_root_path()/'data'/'dictionary','rb') as file:
     word_lookup = set(pickle.load(file))
 
 import string
