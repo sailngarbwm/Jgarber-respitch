@@ -14,7 +14,7 @@ def convert_df_row_to_dictionary(df: pd.DataFrame,row_number:int):
 
     """
 
-    out_dict = ds_mild.loc[row_number].to_dict()
+    out_dict = df.loc[row_number].to_dict()
 
     for key in out_tdict.keys():
         out_dict[key] = [out_dict[key]]
